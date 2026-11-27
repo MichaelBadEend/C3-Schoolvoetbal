@@ -16,18 +16,18 @@ header{
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 50px;
+    height: 80px;
     background-color: black;
 }
 
 .sidebar{
     width: 180px;
     background-color: black;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 80px);
     padding-top: 0;
     position: fixed;
     left: 0px;
-    top: 50px;
+    top: 80px;
 }
 
 .sidebar nav{
