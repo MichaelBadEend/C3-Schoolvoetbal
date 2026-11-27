@@ -1,4 +1,5 @@
-@guest
+<x-layouts.base>
+{{-- @guest
     <a href="{{ route('login') }}">Login</a>
     <a href="{{ route('register') }}">Registreren</a>
 @endguest
@@ -8,4 +9,5 @@
         @csrf
         <input type="submit" value="Logout">
     </form>
-@endauth
+@endauth --}}
+</x-layouts.base>

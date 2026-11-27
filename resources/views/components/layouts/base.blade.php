@@ -9,9 +9,22 @@
 <body>
     <x-header />
 
-    <main>
-       {{ $slot }}
-    </main>
+    <div class="appLayout">
+        <div class="sidebar">
+            <nav>
+                <a href="/">Home</a>
+                <a href="#">Alle teams</a>
+                <a href="#">Komende wedstrijden</a>
+                <a href="#">Leaderbord</a>
+                <a href="#">Maak wedstrijd</a>
+            </nav>
+        </div>
+        <div class="content">
+            <main>
+                {{ $slot }}
+            </main>
+        </div>
+    </div>
 
 </body>
 </html>
