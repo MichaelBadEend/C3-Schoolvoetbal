@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('match_location');
             $table->integer('match_time');
             $table->integer('match_round');
-            $table->integer('team_1_id');
-            $table->integer('team_2_id');
+            $table->foreignId('team_1_id')->references('id')->on('teams');
+            $table->foreignId('team_2_id')->references('id')->on('teams');
             $table->integer('score_team_1');
             $table->integer('score_team_2');
             $table->timestamps();
