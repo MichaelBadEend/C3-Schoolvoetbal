@@ -28,6 +28,14 @@ header h1{
 }
 header img{
     width: 3%;
+    margin: 10px;
+}
+header a{
+    display: block;
+    margin: 10px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
 }
 
 .sidebar{
